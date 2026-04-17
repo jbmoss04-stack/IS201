@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* HEADER */
+.header {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 30px;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+/* FORCE TITLE WHITE */
+.header h1 {
+    color: white;
+    margin: 0;
+}
+
+/* NAVIGATION */
+.nav {
+    background-color: green;
+    text-align: center;
+    padding: 12px;
+}
+
+/* NAV LINKS */
+.nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+
+/* MAIN CONTENT */
+.mainbody {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+/* HEADINGS */
+h1 {
+    font-family: Georgia, serif;
+    color: black;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: black;
+}
+
+/* IMAGES */
+.mainbody img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    border: 3px solid green;
+}
+
+/* LISTS */
+ol {
+    margin-top: 20px;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: darkgreen;
+    color: white;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
